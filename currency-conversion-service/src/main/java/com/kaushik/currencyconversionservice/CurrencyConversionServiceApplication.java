@@ -1,13 +1,13 @@
-package com.kaushilk.microservices;
+package com.kaushik.currencyconversionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroservicesApplication {
+public class CurrencyConversionServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroservicesApplication.class, args);
+		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
 	}
 
 }
